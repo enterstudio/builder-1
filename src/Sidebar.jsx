@@ -1,7 +1,12 @@
 import React from 'react';
+
 import {
-    Nav,
     NavLink
+} from 'react-router-dom';
+
+import {
+    NavItem,
+    Nav
 } from 'reactstrap';
 
 class Sidebar extends React.Component
@@ -10,7 +15,9 @@ class Sidebar extends React.Component
     {
         return(
             <Nav vertical>
-                <NavLink to="/" activeClassName="active">Home</NavLink>
+                <NavItem>
+                    <NavLink exact to="/" activeClassName="active">Home</NavLink>
+                </NavItem>
             </Nav>
         );
     }

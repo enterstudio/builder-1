@@ -6,10 +6,15 @@ class Home extends React.Component
     {
         return(
             <div>
+                <div id="intro"></div>
                 <h3>Selamat datang di website tutorial pemrograman web!</h3>
-                <p>Di sini, Anda akan diberikan petunjuk tentang cara membuat program website 
-                dengan langkah-langkah yang jelas dan detail disertai dengan berbagai petunjuk 
-                yang mudah dimengerti.</p>
+                <p>Web Tutorial adalah situs yang dibuat untuk menyediakan tutorial 
+                    pemrograman web. Di sini, Disediakan berbagai petunjuk tentang 
+                    cara membuat program dengan langkah-langkah yang jelas 
+                    dan detail sehingga mudah dimengerti.</p>
+                <p>Kamu tidak perlu bingung terhadap segala macam persiapan 
+                    yang harus dilakukan, karena di situs ini disediakan 
+                    panduan bagi pengunjung dengan level pengetahuan mulai dari benar-benar awam</p>
                 <h3>Apa saja yang akan dipelajari di sini?</h3>
                 <p>
                 Akan ada banyak hal yang dapat Kamu dipelajari. 

@@ -15,7 +15,7 @@ class App extends Component {
             <Navigasi/>
             <Container fluid>
                 <Row>
-                    <Col sm="2">
+                    <Col sm="2" className="sidebar">
                         <Sidebar/>
                     </Col>
                     <Col sm="10">

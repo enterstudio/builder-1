@@ -18,6 +18,13 @@
   font-size: large;
 }
 
+.sidebar{
+    background: #ecf0f1;
+}
+.sidebar .active{
+    background: #34495e;
+}
+
 @keyframes App-logo-spin {
   from { transform: rotate(0deg); }
   to { transform: rotate(360deg); }
