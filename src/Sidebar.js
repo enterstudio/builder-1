@@ -41,6 +41,16 @@ var Sidebar = (function (_React$Component) {
                     _reactRouterDom.NavLink,
                     { exact: true, to: '/', activeClassName: 'active' },
                     'Home'
+                ),
+                _react2['default'].createElement(
+                    _reactRouterDom.NavLink,
+                    { exact: true, to: '/about', activeClassName: 'active' },
+                    'About'
+                ),
+                _react2['default'].createElement(
+                    _reactRouterDom.NavLink,
+                    { exact: true, to: '/contact', activeClassName: 'active' },
+                    'Contact'
                 )
             );
         }
