@@ -15,9 +15,7 @@ class Sidebar extends React.Component
     {
         return(
             <Nav vertical>
-                <NavItem>
-                    <NavLink exact to="/" activeClassName="active">Home</NavLink>
-                </NavItem>
+                <NavLink exact to="/" activeClassName="active">Home</NavLink>
             </Nav>
         );
     }

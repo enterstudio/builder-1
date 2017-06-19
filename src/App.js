@@ -4,6 +4,11 @@ import './App.css';
 import {
     Container, Row, Col
 } from 'reactstrap';
+
+import {
+    BrowserRouter
+} from 'react-router-dom';
+
 import Navigasi from './Navigasi.jsx';
 import Sidebar from './Sidebar.jsx';
 import Komponen from './Komponen.jsx';
@@ -11,19 +16,21 @@ import Komponen from './Komponen.jsx';
 class App extends Component {
   render() {
     return (
-        <div>
-            <Navigasi/>
-            <Container fluid>
-                <Row>
-                    <Col sm="2" className="sidebar">
-                        <Sidebar/>
-                    </Col>
-                    <Col sm="10">
-                        <Komponen/>
-                    </Col>
-                </Row>
-            </Container>
-        </div>
+        <BrowserRouter>
+            <div>
+                <Navigasi/>
+                <Container fluid>
+                    <Row>
+                        <Col sm="2" className="sidebar">
+                            <Sidebar/>
+                        </Col>
+                        <Col sm="10">
+                            <Komponen/>
+                        </Col>
+                    </Row>
+                </Container>
+            </div>
+        </BrowserRouter>
     );
   }
 }
