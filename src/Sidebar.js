@@ -35,12 +35,20 @@ var Sidebar = (function (_React$Component) {
         key: 'render',
         value: function render() {
             return _react2['default'].createElement(
-                _reactstrap.Nav,
-                { vertical: true },
+                _reactstrap.Card,
+                null,
                 _react2['default'].createElement(
-                    _reactRouterDom.NavLink,
-                    { className: 'nav-link', exact: true, to: '/', activeClassName: 'active' },
-                    'Beranda'
+                    _reactstrap.CardBlock,
+                    null,
+                    _react2['default'].createElement(
+                        _reactstrap.Nav,
+                        { vertical: true },
+                        _react2['default'].createElement(
+                            _reactRouterDom.NavLink,
+                            { className: 'nav-link', exact: true, to: '/', activeClassName: 'active' },
+                            'Beranda'
+                        )
+                    )
                 )
             );
         }

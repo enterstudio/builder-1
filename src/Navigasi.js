@@ -69,7 +69,7 @@ var Navigasi = (function (_React$Component) {
         value: function render() {
             return _react2['default'].createElement(
                 _reactstrap.Navbar,
-                { color: 'inverse', inverse: true, toggleable: true },
+                { color: 'inverse', className: 'sticky-top', inverse: true, toggleable: true },
                 _react2['default'].createElement(_reactstrap.NavbarToggler, { right: true, onClick: this.togglenav }),
                 _react2['default'].createElement(
                     _reactstrap.NavbarBrand,

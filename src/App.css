@@ -17,9 +17,8 @@
 .App-intro {
   font-size: large;
 }
-
-.sidebar{
-    background: #ecf0f1;
+.sidebar .card{
+    height: 100%;
 }
 .sidebar a{
     color: #2c3e50;

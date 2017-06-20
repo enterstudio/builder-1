@@ -44,7 +44,7 @@ class Navigasi extends React.Component
     render()
     {
         return(
-            <Navbar color="inverse" inverse toggleable>
+            <Navbar color="inverse" className="sticky-top" inverse toggleable>
                 <NavbarToggler right onClick={this.togglenav}/>
                     <NavbarBrand href="/">Webtutorial</NavbarBrand>
                     <Collapse isOpen={this.statenav.navOpen} navbar>

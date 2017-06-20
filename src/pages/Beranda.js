@@ -18,6 +18,10 @@ var _react = require('react');
 
 var _react2 = _interopRequireDefault(_react);
 
+var _reactstrap = require('reactstrap');
+
+require('./css/Beranda.css');
+
 var Beranda = (function (_React$Component) {
     _inherits(Beranda, _React$Component);
 
@@ -34,148 +38,177 @@ var Beranda = (function (_React$Component) {
                 'div',
                 null,
                 _react2['default'].createElement(
-                    'h3',
-                    null,
-                    'Selamat datang di Webtutorial!'
-                ),
-                _react2['default'].createElement(
-                    'p',
-                    null,
-                    'Web Tutorial adalah situs yang dibuat untuk menyediakan tutorial pemrograman web. Di sini tersedia berbagai petunjuk tentang cara membuat program dengan langkah-langkah yang jelas dan detail sehingga mudah dimengerti. Situs ini menyediakan tutorial dengan pendekatan '
-                ),
-                _react2['default'].createElement(
-                    'h3',
-                    null,
-                    'Apa saja yang akan dipelajari di sini?'
-                ),
-                _react2['default'].createElement(
-                    'p',
-                    null,
-                    'Akan ada banyak hal yang dapat Kamu dipelajari. Untuk saat ini dan beberapa waktu kedepan Kamu akan belajar berbagai tahap mulai dari mempersiapkan berbagai aplikasi yang akan dibutuhkan untuk belajar beserta petunjuk instalasinya hingga koding.'
-                ),
-                _react2['default'].createElement(
-                    'h3',
-                    null,
-                    'Persiapan'
-                ),
-                _react2['default'].createElement(
-                    'p',
-                    null,
-                    'Ada beberapa hal yang harus kamu siapkan untuk bisa mengikuti tutorial Web di sini. Asumsi bahwa kamu adalah pengguna sistem operasi windows. Berikut ini adalah daftarnya:'
-                ),
-                _react2['default'].createElement(
-                    'ul',
-                    null,
+                    _reactstrap.Card,
+                    { id: 'pengenalan' },
                     _react2['default'].createElement(
-                        'li',
+                        _reactstrap.CardHeader,
                         null,
-                        'kode editor',
-                        _react2['default'].createElement(
-                            'p',
-                            null,
-                            'kode editor adalah aplikasi untuk menyimpan hasil tulisan kode kamu. biasanya, kode editor memiliki tambahan efek yaitu ',
-                            _react2['default'].createElement(
-                                'i',
-                                null,
-                                'syntax highlighter'
-                            ),
-                            ' yang dapat membuat setiap kata dalam kode menjadi berwarna tergantung dari jenisnya masing-masing.'
-                        ),
-                        _react2['default'].createElement(
-                            'p',
-                            null,
-                            'Berikut ini adalah beberapa kode editor populer di dunia pemrograman yang bisa kamu gunakan untuk belajar:'
-                        ),
-                        _react2['default'].createElement(
-                            'ul',
-                            null,
-                            _react2['default'].createElement(
-                                'li',
-                                null,
-                                'Atom'
-                            ),
-                            _react2['default'].createElement(
-                                'li',
-                                null,
-                                'Bracket'
-                            ),
-                            _react2['default'].createElement(
-                                'li',
-                                null,
-                                'Notepad++'
-                            ),
-                            _react2['default'].createElement(
-                                'li',
-                                null,
-                                'Sublime Text'
-                            )
-                        )
+                        'Pengenalan'
                     ),
                     _react2['default'].createElement(
-                        'li',
+                        _reactstrap.CardBlock,
                         null,
-                        'Browser',
                         _react2['default'].createElement(
-                            'p',
-                            null,
-                            'Browser adalah aplikasi untuk menjalankan aplikasi web dan melihat tampilan yang dihasilkan dari kode didalam aplikasi. Saat ini terdapat beragam browser yang tersedia. Berikut ini adalah beberapa browser yang populer dikalangan programmer website:'
-                        ),
-                        _react2['default'].createElement(
-                            'ul',
+                            _reactstrap.CardText,
                             null,
                             _react2['default'].createElement(
-                                'li',
+                                'h3',
                                 null,
-                                'Google Chrome'
+                                'Selamat datang di Webtutorial!'
                             ),
                             _react2['default'].createElement(
-                                'li',
+                                'p',
                                 null,
-                                'Mozilla Firefox'
+                                'Web Tutorial adalah situs yang dibuat untuk menyediakan tutorial pemrograman web. Di sini tersedia berbagai petunjuk tentang cara membuat program dengan langkah-langkah yang jelas dan detail sehingga mudah dimengerti. Situs ini menyediakan tutorial dengan pendekatan '
                             ),
                             _react2['default'].createElement(
-                                'li',
+                                'h3',
                                 null,
-                                'Internet Explorer'
+                                'Apa saja yang akan dipelajari di sini?'
                             ),
                             _react2['default'].createElement(
-                                'li',
+                                'p',
                                 null,
-                                'Safari'
-                            ),
-                            _react2['default'].createElement(
-                                'li',
-                                null,
-                                'Opera'
+                                'Akan ada banyak hal yang dapat Kamu dipelajari. Untuk saat ini dan beberapa waktu kedepan Kamu akan belajar berbagai tahap mulai dari mempersiapkan berbagai aplikasi yang akan dibutuhkan untuk belajar beserta petunjuk instalasinya hingga koding.'
                             )
                         )
+                    )
+                ),
+                _react2['default'].createElement(
+                    _reactstrap.Card,
+                    { id: 'persiapan' },
+                    _react2['default'].createElement(
+                        _reactstrap.CardHeader,
+                        null,
+                        'Persiapan'
                     ),
                     _react2['default'].createElement(
-                        'li',
+                        _reactstrap.CardBlock,
                         null,
-                        'Server Lokal',
                         _react2['default'].createElement(
-                            'p',
-                            null,
-                            'Server lokal digunakan terutama jika kamu ingin menjalankan aplikasi yang bekerja di sisi server(server side). Kamu akan membutuhkan server lokal jika ngoding php. Aplikasi ini biasanya juga akan mengakses data didalam database.'
-                        ),
-                        _react2['default'].createElement(
-                            'p',
-                            null,
-                            'Di bawah ini adalah server lokal yang dapat kamu install dengan instan.'
-                        ),
-                        _react2['default'].createElement(
-                            'ul',
+                            _reactstrap.CardText,
                             null,
                             _react2['default'].createElement(
-                                'li',
+                                'p',
                                 null,
-                                'Xampp'
+                                'Ada beberapa hal yang harus kamu siapkan untuk bisa mengikuti tutorial Web di sini. Asumsi bahwa kamu adalah pengguna sistem operasi windows. Berikut ini adalah daftarnya:'
                             ),
                             _react2['default'].createElement(
-                                'li',
+                                'ul',
                                 null,
-                                'Wampp'
+                                _react2['default'].createElement(
+                                    'li',
+                                    null,
+                                    'kode editor',
+                                    _react2['default'].createElement(
+                                        'p',
+                                        null,
+                                        'kode editor adalah aplikasi untuk menyimpan hasil tulisan kode kamu. biasanya, kode editor memiliki tambahan efek yaitu ',
+                                        _react2['default'].createElement(
+                                            'i',
+                                            null,
+                                            'syntax highlighter'
+                                        ),
+                                        ' yang dapat membuat setiap kata dalam kode menjadi berwarna tergantung dari jenisnya masing-masing.'
+                                    ),
+                                    _react2['default'].createElement(
+                                        'p',
+                                        null,
+                                        'Berikut ini adalah beberapa kode editor populer di dunia pemrograman yang bisa kamu gunakan untuk belajar:'
+                                    ),
+                                    _react2['default'].createElement(
+                                        'ul',
+                                        null,
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Atom'
+                                        ),
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Bracket'
+                                        ),
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Notepad++'
+                                        ),
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Sublime Text'
+                                        )
+                                    )
+                                ),
+                                _react2['default'].createElement(
+                                    'li',
+                                    null,
+                                    'Browser',
+                                    _react2['default'].createElement(
+                                        'p',
+                                        null,
+                                        'Browser adalah aplikasi untuk menjalankan aplikasi web dan melihat tampilan yang dihasilkan dari kode didalam aplikasi. Saat ini terdapat beragam browser yang tersedia. Berikut ini adalah beberapa browser yang populer dikalangan programmer website:'
+                                    ),
+                                    _react2['default'].createElement(
+                                        'ul',
+                                        null,
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Google Chrome'
+                                        ),
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Mozilla Firefox'
+                                        ),
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Internet Explorer'
+                                        ),
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Safari'
+                                        ),
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Opera'
+                                        )
+                                    )
+                                ),
+                                _react2['default'].createElement(
+                                    'li',
+                                    null,
+                                    'Server Lokal',
+                                    _react2['default'].createElement(
+                                        'p',
+                                        null,
+                                        'Server lokal digunakan terutama jika kamu ingin menjalankan aplikasi yang bekerja di sisi server(server side). Kamu akan membutuhkan server lokal jika ngoding php. Aplikasi ini biasanya juga akan mengakses data didalam database.'
+                                    ),
+                                    _react2['default'].createElement(
+                                        'p',
+                                        null,
+                                        'Di bawah ini adalah server lokal yang dapat kamu install dengan instan.'
+                                    ),
+                                    _react2['default'].createElement(
+                                        'ul',
+                                        null,
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Xampp'
+                                        ),
+                                        _react2['default'].createElement(
+                                            'li',
+                                            null,
+                                            'Wampp'
+                                        )
+                                    )
+                                )
                             )
                         )
                     )

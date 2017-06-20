@@ -6,7 +6,9 @@ import {
 
 import {
     NavItem,
-    Nav
+    Nav,
+    Card,
+    CardBlock
 } from 'reactstrap';
 
 class Sidebar extends React.Component
@@ -14,9 +16,13 @@ class Sidebar extends React.Component
     render()
     {
         return(
-            <Nav vertical>
-                <NavLink className="nav-link" exact to="/" activeClassName="active">Beranda</NavLink>
-            </Nav>
+            <Card>
+                <CardBlock>
+                    <Nav vertical>
+                        <NavLink className="nav-link" exact to="/" activeClassName="active">Beranda</NavLink>
+                    </Nav> 
+                </CardBlock>
+            </Card>
         );
     }
 }
