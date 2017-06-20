@@ -22,17 +22,9 @@ var _reactRouter = require('react-router');
 
 var _reactRouterDom = require('react-router-dom');
 
-var _pagesHomeJsx = require('./pages/Home.jsx');
+var _pagesBerandaJsx = require('./pages/Beranda.jsx');
 
-var _pagesHomeJsx2 = _interopRequireDefault(_pagesHomeJsx);
-
-var _pagesAboutJsx = require('./pages/About.jsx');
-
-var _pagesAboutJsx2 = _interopRequireDefault(_pagesAboutJsx);
-
-var _pagesContactJsx = require('./pages/Contact.jsx');
-
-var _pagesContactJsx2 = _interopRequireDefault(_pagesContactJsx);
+var _pagesBerandaJsx2 = _interopRequireDefault(_pagesBerandaJsx);
 
 var Komponen = (function (_React$Component) {
     _inherits(Komponen, _React$Component);
@@ -49,9 +41,7 @@ var Komponen = (function (_React$Component) {
             return _react2['default'].createElement(
                 'div',
                 null,
-                _react2['default'].createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _pagesHomeJsx2['default'] }),
-                _react2['default'].createElement(_reactRouterDom.Route, { path: '/about', component: _pagesAboutJsx2['default'] }),
-                _react2['default'].createElement(_reactRouterDom.Route, { path: '/contact', component: _pagesContactJsx2['default'] })
+                _react2['default'].createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _pagesBerandaJsx2['default'] })
             );
         }
     }]);

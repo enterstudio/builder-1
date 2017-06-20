@@ -39,18 +39,8 @@ var Sidebar = (function (_React$Component) {
                 { vertical: true },
                 _react2['default'].createElement(
                     _reactRouterDom.NavLink,
-                    { exact: true, to: '/', activeClassName: 'active' },
-                    'Home'
-                ),
-                _react2['default'].createElement(
-                    _reactRouterDom.NavLink,
-                    { exact: true, to: '/about', activeClassName: 'active' },
-                    'About'
-                ),
-                _react2['default'].createElement(
-                    _reactRouterDom.NavLink,
-                    { exact: true, to: '/contact', activeClassName: 'active' },
-                    'Contact'
+                    { className: 'nav-link', exact: true, to: '/', activeClassName: 'active' },
+                    'Beranda'
                 )
             );
         }

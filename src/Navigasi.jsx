@@ -10,7 +10,7 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
-import Home from './pages/Home.jsx';
+import Beranda from './pages/Beranda.jsx';
 import About from './pages/About.jsx';
 import Contact from './pages/Contact.jsx';
 
