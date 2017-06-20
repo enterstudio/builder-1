@@ -21,10 +21,10 @@ class App extends Component {
                 <Navigasi/>
                 <Container fluid>
                     <Row>
-                        <Col sm="2" className="sidebar">
+                        <Col md="3" className="sidebar">
                             <Sidebar/>
                         </Col>
-                        <Col sm="10">
+                        <Col md="9">
                             <Komponen/>
                         </Col>
                     </Row>

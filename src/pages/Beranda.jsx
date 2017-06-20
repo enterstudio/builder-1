@@ -51,7 +51,7 @@ class Beranda extends React.Component
                                         jenisnya masing-masing.
                                     </p>
                                     <p>Berikut ini adalah beberapa kode editor populer di dunia pemrograman 
-                                    yang bisa kamu gunakan untuk belajar:</p>
+                                    yang bisa kamu gunakan dalam proses belajar:</p>
                                     <ul>
                                         <li>Atom</li>
                                         <li>Bracket</li>
