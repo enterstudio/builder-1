@@ -20,18 +20,6 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactstrap = require('reactstrap');
 
-var _pagesBerandaJsx = require('./pages/Beranda.jsx');
-
-var _pagesBerandaJsx2 = _interopRequireDefault(_pagesBerandaJsx);
-
-var _pagesAboutJsx = require('./pages/About.jsx');
-
-var _pagesAboutJsx2 = _interopRequireDefault(_pagesAboutJsx);
-
-var _pagesContactJsx = require('./pages/Contact.jsx');
-
-var _pagesContactJsx2 = _interopRequireDefault(_pagesContactJsx);
-
 var Navigasi = (function (_React$Component) {
     _inherits(Navigasi, _React$Component);
 

@@ -47,6 +47,11 @@ var Sidebar = (function (_React$Component) {
                             _reactRouterDom.NavLink,
                             { className: 'nav-link', exact: true, to: '/', activeClassName: 'active' },
                             'Beranda'
+                        ),
+                        _react2['default'].createElement(
+                            _reactRouterDom.NavLink,
+                            { className: 'nav-link', exact: true, to: '/instalasi', activeClassName: 'active' },
+                            'Instalasi'
                         )
                     )
                 )

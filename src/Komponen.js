@@ -26,6 +26,10 @@ var _pagesBerandaJsx = require('./pages/Beranda.jsx');
 
 var _pagesBerandaJsx2 = _interopRequireDefault(_pagesBerandaJsx);
 
+var _pagesInstalasiJsx = require('./pages/Instalasi.jsx');
+
+var _pagesInstalasiJsx2 = _interopRequireDefault(_pagesInstalasiJsx);
+
 var Komponen = (function (_React$Component) {
     _inherits(Komponen, _React$Component);
 
@@ -41,7 +45,8 @@ var Komponen = (function (_React$Component) {
             return _react2['default'].createElement(
                 'div',
                 null,
-                _react2['default'].createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _pagesBerandaJsx2['default'] })
+                _react2['default'].createElement(_reactRouterDom.Route, { exact: true, path: '/', component: _pagesBerandaJsx2['default'] }),
+                _react2['default'].createElement(_reactRouterDom.Route, { exact: true, path: '/instalasi', component: _pagesInstalasiJsx2['default'] })
             );
         }
     }]);

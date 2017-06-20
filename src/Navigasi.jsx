@@ -10,9 +10,6 @@ import {
     DropdownMenu,
     DropdownItem
 } from 'reactstrap';
-import Beranda from './pages/Beranda.jsx';
-import About from './pages/About.jsx';
-import Contact from './pages/Contact.jsx';
 
 class Navigasi extends React.Component
 {

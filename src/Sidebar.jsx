@@ -20,6 +20,7 @@ class Sidebar extends React.Component
                 <CardBlock>
                     <Nav vertical>
                         <NavLink className="nav-link" exact to="/" activeClassName="active">Beranda</NavLink>
+                        <NavLink className="nav-link" exact to="/instalasi" activeClassName="active">Instalasi</NavLink>
                     </Nav> 
                 </CardBlock>
             </Card>
