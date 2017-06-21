@@ -42,7 +42,7 @@ var Sidebar = (function (_React$Component) {
                     null,
                     _react2['default'].createElement(
                         _reactstrap.Nav,
-                        { vertical: true },
+                        { className: 'nav-stacked', vertical: true },
                         _react2['default'].createElement(
                             _reactRouterDom.NavLink,
                             { className: 'nav-link', exact: true, to: '/', activeClassName: 'active' },

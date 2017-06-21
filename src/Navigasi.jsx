@@ -5,6 +5,8 @@ import {
     NavbarBrand,
     Collapse,
     Nav,
+    NavItem,
+    NavLink,
     NavDropdown,
     DropdownToggle,
     DropdownMenu,
@@ -16,38 +18,39 @@ class Navigasi extends React.Component
     constructor(props)
     {
         super(props);
-        this.togglenav = this.togglenav.bind(this);
-//        this.dropdownToggle = this.dropdownToggle.bind(this);
         
-        this.statenav = {
-            navOpen:false
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.toggleNavdropdown = this.toggleNavdropdown.bind(this);
+        
+        this.state = {
+            collapsedNavbar: false
         }
-//        this.stateDropdown = {
-//            downOpen:false
-//        }
+        this.state = {
+            dropdownOpen : false
+        }
     }
-    togglenav()
+    toggleNavbar()
     {
         this.setState({
-            navOpen: !this.statenav.navOpen
+            collapsedNavbar: !this.state.collapsedNavbar
         });
     }
-//    dropdownToggle()
-//    {
-//        this.setState({
-//            downOpen: !this.stateDropdown.downOpen
-//        });
-//    }
+    toggleNavdropdown()
+    {
+        this.setState({
+            dropdownOpen: !this.state.dropdownOpen
+        });
+    }
     render()
     {
         return(
             <Navbar color="inverse" className="sticky-top" inverse toggleable>
-                <NavbarToggler right onClick={this.togglenav}/>
+                <NavbarToggler right onClick={this.toggleNavbar}/>
                     <NavbarBrand href="/">Webtutorial</NavbarBrand>
-                    <Collapse isOpen={this.statenav.navOpen} navbar>
-{/*
+                    <Collapse className="navbar-toggleable-md" isOpen={this.state.collapsedNavbar} navbar>
+
                         <Nav className="mr-auto" navbar>
-                            <NavDropdown isOpen={this.stateDropdown.downOpen} toggle={this.dropdownToggle}>
+                            <NavDropdown isOpen={this.state.dropdownOpen} toggle={this.toggleNavdropdown}>
                                 <DropdownToggle nav caret>
                                     Tutorial
                                 </DropdownToggle>
@@ -58,7 +61,6 @@ class Navigasi extends React.Component
                                 </DropdownMenu>
                             </NavDropdown>
                         </Nav>
-                        */}
                     </Collapse>
             </Navbar>
         );

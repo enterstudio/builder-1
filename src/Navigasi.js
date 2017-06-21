@@ -27,44 +27,80 @@ var Navigasi = (function (_React$Component) {
         _classCallCheck(this, Navigasi);
 
         _get(Object.getPrototypeOf(Navigasi.prototype), 'constructor', this).call(this, props);
-        this.togglenav = this.togglenav.bind(this);
-        //        this.dropdownToggle = this.dropdownToggle.bind(this);
 
-        this.statenav = {
-            navOpen: false
+        this.toggleNavbar = this.toggleNavbar.bind(this);
+        this.toggleNavdropdown = this.toggleNavdropdown.bind(this);
+
+        this.state = {
+            collapsedNavbar: false
         };
-        //        this.stateDropdown = {
-        //            downOpen:false
-        //        }
+        this.state = {
+            dropdownOpen: false
+        };
     }
 
     _createClass(Navigasi, [{
-        key: 'togglenav',
-        value: function togglenav() {
+        key: 'toggleNavbar',
+        value: function toggleNavbar() {
             this.setState({
-                navOpen: !this.statenav.navOpen
+                collapsedNavbar: !this.state.collapsedNavbar
             });
         }
-
-        //    dropdownToggle()
-        //    {
-        //        this.setState({
-        //            downOpen: !this.stateDropdown.downOpen
-        //        });
-        //    }
+    }, {
+        key: 'toggleNavdropdown',
+        value: function toggleNavdropdown() {
+            this.setState({
+                dropdownOpen: !this.state.dropdownOpen
+            });
+        }
     }, {
         key: 'render',
         value: function render() {
             return _react2['default'].createElement(
                 _reactstrap.Navbar,
                 { color: 'inverse', className: 'sticky-top', inverse: true, toggleable: true },
-                _react2['default'].createElement(_reactstrap.NavbarToggler, { right: true, onClick: this.togglenav }),
+                _react2['default'].createElement(_reactstrap.NavbarToggler, { right: true, onClick: this.toggleNavbar }),
                 _react2['default'].createElement(
                     _reactstrap.NavbarBrand,
                     { href: '/' },
                     'Webtutorial'
                 ),
-                _react2['default'].createElement(_reactstrap.Collapse, { isOpen: this.statenav.navOpen, navbar: true })
+                _react2['default'].createElement(
+                    _reactstrap.Collapse,
+                    { className: 'navbar-toggleable-md', isOpen: this.state.collapsedNavbar, navbar: true },
+                    _react2['default'].createElement(
+                        _reactstrap.Nav,
+                        { className: 'mr-auto', navbar: true },
+                        _react2['default'].createElement(
+                            _reactstrap.NavDropdown,
+                            { isOpen: this.state.dropdownOpen, toggle: this.toggleNavdropdown },
+                            _react2['default'].createElement(
+                                _reactstrap.DropdownToggle,
+                                { nav: true, caret: true },
+                                'Tutorial'
+                            ),
+                            _react2['default'].createElement(
+                                _reactstrap.DropdownMenu,
+                                null,
+                                _react2['default'].createElement(
+                                    _reactstrap.DropdownItem,
+                                    null,
+                                    'HTML'
+                                ),
+                                _react2['default'].createElement(
+                                    _reactstrap.DropdownItem,
+                                    null,
+                                    'CSS'
+                                ),
+                                _react2['default'].createElement(
+                                    _reactstrap.DropdownItem,
+                                    null,
+                                    'JavaScript'
+                                )
+                            )
+                        )
+                    )
+                )
             );
         }
     }]);
@@ -74,17 +110,3 @@ var Navigasi = (function (_React$Component) {
 
 exports['default'] = Navigasi;
 module.exports = exports['default'];
-/*
-                       <Nav className="mr-auto" navbar>
-                           <NavDropdown isOpen={this.stateDropdown.downOpen} toggle={this.dropdownToggle}>
-                               <DropdownToggle nav caret>
-                                   Tutorial
-                               </DropdownToggle>
-                               <DropdownMenu>
-                                   <DropdownItem>HTML</DropdownItem>
-                                   <DropdownItem>CSS</DropdownItem>
-                                   <DropdownItem>JavaScript</DropdownItem>
-                               </DropdownMenu>
-                           </NavDropdown>
-                       </Nav>
-                       */
