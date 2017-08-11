@@ -31,21 +31,33 @@ class Instalasi extends React.Component
                         </p>
                         <ul>
                             <li>
-                                Text Editor : Sublime Text<br/>
-                                <img className="img-thumbnail" src={require('../img/sublime-text.jpg')}/>
+                                Teks Editor atau kode editor:
+                                <ul>
+                                    <li>Atom</li>
+                                    <li>Bracket</li>
+                                    <li>Nodepad++</li>
+                                    <li>Sublime Text</li>
+                                </ul>
                             </li>
                             <li>
-                                Browser : Mozilla Firefox<br/>
-                                <img className="img-thumbnail" src={require('../img/mozilla-firefox.jpg')}/>
+                                Browser :
+                                <ul>
+                                    <li>Google Chrome</li>
+                                    <li>Mozilla Firefox</li>
+                                    <li>Safari</li>
+                                    <li>VIvaldi</li>
+                                </ul>
                             </li>
                             <li>
-                                Server lokal : Xampp<br/>
-                                <img className="img-thumbnail" src={require('../img/xampp.jpg')}/>
+                                Server lokal :
+                                <ul>
+                                    <li>XAMPP</li>
+                                    <li>WAMPP</li>
+                                </ul>
                             </li>
                         </ul>
                         <p>
-                            Silahkan menginstall aplikasi sesuai dengan contoh di atas, atau jika kamu 
-                            memiliki selera yang lain, silahkan mencari alternatifnya.
+                            Silahkan menginstall aplikasi sesuai dengan pilihan(contoh) di atas.
                         </p>
                     </CardText> 
                 </CardBlock>
