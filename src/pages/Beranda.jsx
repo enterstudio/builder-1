@@ -33,62 +33,6 @@ class Beranda extends React.Component
                         </CardText>
                     </CardBlock>
                 </Card>
-                <Card id="persiapan">
-                    <CardHeader className="bg-success text-white">Persiapan</CardHeader>
-                    <CardBlock>
-                        <CardText>
-                            <p>
-                                Ada beberapa hal yang harus kamu siapkan untuk bisa mengikuti 
-                                tutorial Web di sini. Asumsi bahwa kamu adalah pengguna sistem operasi windows. 
-                                Berikut ini adalah daftarnya:
-                            </p>
-                            <ul>
-                                <li>kode editor
-                                    <p>kode editor adalah aplikasi untuk menyimpan hasil tulisan kode kamu. 
-                                        biasanya, kode editor memiliki tambahan efek yaitu <i>syntax highlighter</i> yang dapat membuat setiap kata dalam kode menjadi berwarna tergantung dari 
-                                        jenisnya masing-masing.
-                                    </p>
-                                    <p>Berikut ini adalah beberapa kode editor populer di dunia pemrograman 
-                                    yang bisa kamu gunakan dalam proses belajar:</p>
-                                    <ul>
-                                        <li>Atom</li>
-                                        <li>Bracket</li>
-                                        <li>Notepad++</li>
-                                        <li>Sublime Text</li>
-                                    </ul>
-                                </li>
-                                <li>Browser
-                                    <p>Browser adalah aplikasi untuk menjalankan aplikasi web 
-                                        dan melihat tampilan yang dihasilkan dari kode didalam aplikasi.
-                                    Saat ini terdapat beragam browser yang tersedia. Berikut ini adalah beberapa 
-                                    browser yang populer dikalangan programmer website:</p>
-                                    <ul>
-                                        <li>Google Chrome</li>
-                                        <li>Mozilla Firefox</li>
-                                        <li>Internet Explorer</li>
-                                        <li>Safari</li>
-                                        <li>Opera</li>
-                                    </ul>
-                                </li>
-                                <li>Server Lokal
-                                    <p>
-                                        Server lokal digunakan terutama jika kamu ingin menjalankan aplikasi 
-                                        yang bekerja di sisi server(server side). Kamu akan membutuhkan 
-                                        server lokal jika ngoding php. Aplikasi ini biasanya juga akan 
-                                        mengakses data didalam database.
-                                    </p>
-                                    <p>
-                                        Di bawah ini adalah server lokal yang dapat kamu install dengan instan. 
-                                    </p>
-                                    <ul>
-                                        <li>Xampp</li>
-                                        <li>Wampp</li>
-                                    </ul>
-                                </li>
-                            </ul>
-                        </CardText>
-                    </CardBlock>
-                </Card>
             </div>
         );
     }
