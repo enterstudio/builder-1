@@ -16,7 +16,7 @@ class Beranda extends React.Component
         return(
             <div>
                 <Card id="pengenalan">
-                    <CardHeader>Pengenalan</CardHeader>
+                    <CardHeader className="bg-success text-white">Pengenalan</CardHeader>
                     <CardBlock>
                         <CardText>
                             <h3>Selamat datang di Webtutorial!</h3>
@@ -34,7 +34,7 @@ class Beranda extends React.Component
                     </CardBlock>
                 </Card>
                 <Card id="persiapan">
-                    <CardHeader>Persiapan</CardHeader>
+                    <CardHeader className="bg-success text-white">Persiapan</CardHeader>
                     <CardBlock>
                         <CardText>
                             <p>
