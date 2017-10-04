@@ -14,7 +14,7 @@ class Instalasi extends React.Component
     {
         return(
             <Card>
-                <CardHeader>Instalasi Software</CardHeader>
+                <CardHeader className="bg-success text-white">Instalasi Software</CardHeader>
                 <CardBlock>
                     <CardText>
                         <p>
