@@ -30,6 +30,7 @@ class Beranda extends React.Component
                                 mulai dari mempersiapkan berbagai aplikasi yang akan dibutuhkan untuk belajar 
                                 beserta petunjuk instalasinya hingga koding.
                             </p>
+                            <a className="btn btn-success btn-sm float-right" href="https://github.com/webtutorial/builder" target="blank">edit</a>
                         </CardText>
                     </CardBlock>
                 </Card>

@@ -17,14 +17,10 @@ class Instalasi extends React.Component
                 <CardHeader className="bg-success text-white">Instalasi Software</CardHeader>
                 <CardBlock>
                     <CardText>
-                        <p>
                             Sebelum mulai membuat aplikasi web, Kamu harus menginstall beberapa software 
                             yang dibutuhkan, yaitu aplikasi teks editor dan browser. 
-                        </p>
-                        <p>
                             Berikut ini diberikan contoh software yang digunakan untuk 
                             membuat sebuah aplikasi web.
-                        </p>
                         <ul>
                             <li>
                                 Teks Editor atau kode editor(pilih salah satu):
@@ -45,12 +41,13 @@ class Instalasi extends React.Component
                                 </ul>
                             </li>
                         </ul>
-                        <p>
                             Pilih salah satu diantara pilihan teks editor dan browser yang
                             telah disebutkan, kamu juga dapat menginstall aplikasi diluar pilihan 
                             yang disediakan selama memiliki fasilitas dan fungsi utama tidak jauh berbeda 
                             dengan pilihan di atas.
-                        </p>
+                        <div class="form-group">
+                            <a className="btn btn-success btn-sm float-right" href="https://github.com/webtutorial/builder" target="blank">edit</a>
+                        </div>
                     </CardText> 
                 </CardBlock>
             </Card>
