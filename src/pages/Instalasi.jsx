@@ -19,11 +19,7 @@ class Instalasi extends React.Component
                     <CardText>
                         <p>
                             Sebelum mulai membuat aplikasi web, Kamu harus menginstall beberapa software 
-                            yang dibutuhkan, yaitu aplikasi teks editor, browser, dan server lokal. 
-                            Pilih salah satu diantara pilihan teks editor, browser, dan server lokal yang
-                            telah disebutkan sebelumnya, kamu juga dapat menginstall aplikasi diluar pilihan 
-                            yang disediakan selama memiliki fasilitas dan fungsi utama tidak jauh berbeda 
-                            dengan pilihan tadi.
+                            yang dibutuhkan, yaitu aplikasi teks editor dan browser. 
                         </p>
                         <p>
                             Berikut ini diberikan contoh software yang digunakan untuk 
@@ -48,16 +44,12 @@ class Instalasi extends React.Component
                                     <li>VIvaldi</li>
                                 </ul>
                             </li>
-                            <li>
-                                Server lokal(pilih salah satu):
-                                <ul>
-                                    <li>XAMPP</li>
-                                    <li>WAMPP</li>
-                                </ul>
-                            </li>
                         </ul>
                         <p>
-                            Silahkan menginstall aplikasi sesuai dengan pilihan di atas.
+                            Pilih salah satu diantara pilihan teks editor dan browser yang
+                            telah disebutkan, kamu juga dapat menginstall aplikasi diluar pilihan 
+                            yang disediakan selama memiliki fasilitas dan fungsi utama tidak jauh berbeda 
+                            dengan pilihan di atas.
                         </p>
                     </CardText> 
                 </CardBlock>
