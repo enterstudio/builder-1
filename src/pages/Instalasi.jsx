@@ -31,7 +31,7 @@ class Instalasi extends React.Component
                         </p>
                         <ul>
                             <li>
-                                Teks Editor atau kode editor:
+                                Teks Editor atau kode editor(pilih salah satu):
                                 <ul>
                                     <li>Atom</li>
                                     <li>Bracket</li>
@@ -40,7 +40,7 @@ class Instalasi extends React.Component
                                 </ul>
                             </li>
                             <li>
-                                Browser :
+                                Browser(pilih salah satu):
                                 <ul>
                                     <li>Google Chrome</li>
                                     <li>Mozilla Firefox</li>
@@ -49,7 +49,7 @@ class Instalasi extends React.Component
                                 </ul>
                             </li>
                             <li>
-                                Server lokal :
+                                Server lokal(pilih salah satu):
                                 <ul>
                                     <li>XAMPP</li>
                                     <li>WAMPP</li>
@@ -57,7 +57,7 @@ class Instalasi extends React.Component
                             </li>
                         </ul>
                         <p>
-                            Silahkan menginstall aplikasi sesuai dengan pilihan(contoh) di atas.
+                            Silahkan menginstall aplikasi sesuai dengan pilihan di atas.
                         </p>
                     </CardText> 
                 </CardBlock>

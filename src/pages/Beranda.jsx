@@ -22,9 +22,7 @@ class Beranda extends React.Component
                             <h3>Selamat datang di Webtutorial!</h3>
                             <p>Web Tutorial adalah situs yang dibuat untuk menyediakan tutorial 
                                 pemrograman web. Di sini tersedia berbagai petunjuk tentang 
-                                cara membuat program dengan langkah-langkah yang jelas 
-                                dan detail sehingga mudah dimengerti. Situs ini menyediakan tutorial dengan 
-                                pendekatan </p>
+                                cara membuat program dengan langkah-langkah yang jelas sehingga mudah dimengerti.</p>
                             <h3>Apa saja yang akan dipelajari di sini?</h3>
                             <p>
                                 Akan ada banyak hal yang dapat Kamu dipelajari. 
