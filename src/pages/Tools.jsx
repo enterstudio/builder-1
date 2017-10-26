@@ -4,11 +4,10 @@ import {
     Card,
     CardHeader,
     CardBlock,
-    CardTitle,
     CardText
 } from 'reactstrap';
 
-class Instalasi extends React.Component
+class Tools extends React.Component
 {
     render()
     {
@@ -54,4 +53,4 @@ class Instalasi extends React.Component
         );
     }
 }
-export default Instalasi;
+export default Tools;

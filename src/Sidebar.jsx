@@ -5,7 +5,6 @@ import {
 } from 'react-router-dom';
 
 import {
-    NavItem,
     Nav,
     Card,
     CardBlock
@@ -20,7 +19,7 @@ class Sidebar extends React.Component
                 <CardBlock>
                     <Nav className="nav-stacked" vertical>
                         <NavLink className="nav-link" exact to="/" activeClassName="bg-success text-white">Beranda</NavLink>
-                        <NavLink className="nav-link" exact to="/instalasi" activeClassName="bg-success text-white">Instalasi</NavLink>
+                        <NavLink className="nav-link" exact to="/tools" activeClassName="bg-success text-white">Tools</NavLink>
                         <NavLink className="nav-link" exact to="/koding" activeClassName="bg-success text-white">Koding</NavLink>
                     </Nav> 
                 </CardBlock>
